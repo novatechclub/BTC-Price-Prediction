@@ -1,0 +1,64 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python specific files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Byte-compiled or optimized Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+*.out
+*.err
+
+# IDE settings
+.idea/
+.vscode/
+
+# Test output
+htmlcov/
+.tox/
+.nox/
+*.cover
+.coverage
+coverage.*
+.cache
+
+# Profiling data
+*.prof
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Pickle files
+*.pickle
+*.pkl
