@@ -3,6 +3,8 @@
 
 ## **Objective**
 
+This is a change!!!!!!
+
 The mission of this project is to **predict Bitcoin prices** by leveraging **social sentiment analysis**. By analyzing historical Bitcoin prices alongside sentiment data from social platforms, this project aims to uncover potential correlations between public sentiment and market movements, thereby enhancing predictive accuracy. It has been inspired by existing works about [ Stock Price Predictions with LSTM Neural Networks and Twitter Sentiment](http://www.iapress.org/index.php/soic/article/view/1202) from Thormann, M.-L. et. al. (2021).
 
 ---
