@@ -22,7 +22,7 @@ class AugmentoAPIClient:
 
     def __init__(self, base_path=".", log_level=logging.INFO):
         self.base_path = Path(base_path).resolve()
-        self.assets_dir = self.base_path / "augmento_client_assets"
+        self.assets_dir = self.base_path / "app_assets" / "augmento_client_assets"
         self.summary_file = self.assets_dir / "augmento_api_summary.json"
         self.log_file = self.assets_dir / "augmento_client.log"
 

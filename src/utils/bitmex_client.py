@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 class BitmexClient:
     BASE_URL = "https://www.bitmex.com/api/v1"
-    ASSETS_DIR = Path("bitmex_client_assets")
+    ASSETS_DIR = Path("app_assets/bitmex_client_assets")
 
     def __init__(self, log_level=logging.INFO):
         self.ASSETS_DIR.mkdir(parents=True, exist_ok=True)

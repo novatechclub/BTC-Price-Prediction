@@ -17,7 +17,7 @@ def load_bitmex_view():
 
     @st.cache_data(show_spinner="Scanning Preloaded Files")
     def get_preloaded_datasets():
-        folder = Path("preloaded_datasets_bitmex")
+        folder = Path("app_assets/bitmex_preloaded_datasets")
         return sorted(folder.glob("*.parquet"))
 
     @st.cache_data(show_spinner="Downloading Data", persist="disk")

@@ -21,7 +21,7 @@ def load_api_view():
 
     @st.cache_data(show_spinner="Scanning Preloaded Files")
     def get_preloaded_datasets():
-        folder = Path("preloaded_datasets")
+        folder = Path("app_assets/augmento_preloaded_datasets")
         return sorted(folder.glob("*.parquet"))
 
     @st.cache_data(show_spinner="Downloading Data", persist="disk")
