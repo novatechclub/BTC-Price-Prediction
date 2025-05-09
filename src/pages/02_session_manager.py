@@ -1,14 +1,18 @@
 # pages/02_Session_Manager.py
 
 import streamlit as st
-from utils.filter_dataframe import filter_dataframe
-from utils.column_summary import display_column_summary
+from utils.dataset_transformation.filter_dataframe import filter_dataframe
+from utils.dataset_transformation.column_summary import display_column_summary
 import pandas as pd
 import io
+from utils.ui.layout_utils import render_logo
 
+st.set_page_config(page_title="Home — NTC TAP", layout="wide")
 
-st.set_page_config(page_title="Session Manager", layout="wide")
-st.title("🧹 Session Manager")
+render_logo(title="🧹 Session Manager")
+
+#st.set_page_config(page_title="Session Manager", layout="wide")
+#st.title("🧹 Session Manager")
 
 # --- 1) load persisted datasets ---
 saved = st.session_state.get("saved_datasets", [])
